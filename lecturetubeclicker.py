@@ -8,7 +8,9 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
-
+# --------------------------------
+# !!! MAKE YOUR CHANGES HERE !!!
+# --------------------------------
 # Login credentials
 username = "yourusername"
 password = "yourpassword"
@@ -22,6 +24,9 @@ button_wait = 0.5
 prof = "profsname"
 year = "year"
 
+# --------------------------------------------------------------------
+# !!! NO CHANGES HERE !!! (except u want to fix a bug that you found)
+# --------------------------------------------------------------------
 # browser set up
 options = Options()
 options.add_experimental_option("detach", True)
