@@ -8,6 +8,8 @@ Open up the program in any editor of your choice and type in the professor of yo
 
 You also need to add in your TUWEL login credentials in the variables username and password. (The program is very short so u can easily check for yourself that i'm not stealing any data)
 
+Then simply start the program and watch the magic happen. (It's not very fast but it saves u some time hopefully)
+
 ## Potential bugs
 You may run into timeouts. Just restart the program. If it happens too often, increaste the button_wait value in 0.1 increments. My personal recommendation is 0.5.
 Sometimes it doesn't exactly stop where u want it to stop, I couldn't figure out why. The if condition, that checks if prof and year is in page source stops, as soon as it finds the year (?). Potential bugfix coming soon.
